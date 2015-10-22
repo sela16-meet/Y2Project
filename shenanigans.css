@@ -1,0 +1,23 @@
+body{
+
+	background: url( "http://vignette1.wikia.nocookie.net/kong/images/5/50/Gorillaz_Phase_1.jpg/revision/latest?cb=20060704155718");
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+
+.me{
+	color:yellow;
+	background-color:black;
+	padding:100px;
+	width:50%;
+}
+
+
+#dadiv{
+	padding-left: 500px;
+}
+#rock {
+	padding-left: 150px;
+	
+}
