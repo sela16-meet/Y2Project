@@ -1,9 +1,33 @@
-</<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title> About Me</title>
+	<title> About Me</title><link rel="stylesheet" type="text/css" href="{{url_for('static', filename='about.css')}}">
 </head>
 <body>
-blaaaa
+
+<div> 
+	<a href="{{url_for('main')}}"> Main Page</a><br><br>
+	<a href="{{url_for('about')}}"> About Me</a><br><br>
+	<a href="{{url_for('contact')}}"> Contact Me</a>
+</div>
+
+
+
+<h1> About Me</h1>
+
+<div id="fam"><h2> Family</h2>
+<p> I am 16 years old. I have 2 older brothers and a younger sister.
+My father is a pilot and my mom is working at a mental illness hospital</p>
+</div>
+
+<div id="int">
+	<h3>
+		Interests
+	</h3>
+	<p>
+		Most of my time I spend on computer games, but I also like watching TV, reading books and learning to play on the guitar.
+		My favorite video game is League of Legends
+	</p>
+</div>
 </body>
 </html>

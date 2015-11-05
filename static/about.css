@@ -1,0 +1,20 @@
+body{
+	background: url( "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_2.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+
+
+
+}
+
+
+#int{
+	color:white;
+}
+
+#fam{
+	color:white;
+}
+.h1{
+	color:white;
+}
