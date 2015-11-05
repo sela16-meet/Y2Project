@@ -1,0 +1,14 @@
+from flask import Flask
+app=Flask(__name__)
+
+@app.route('/')
+def main():
+	return render_template("main.html")
+
+@app.route('/about')
+def about():
+	return render_template("about.html")
+
+@app.route('/contact')
+def about():
+	return render_template("contact.html")
